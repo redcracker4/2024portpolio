@@ -1,1 +1,46 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(..);
+
+body {
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none;
+}
+#wrap {
+    padding:0;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 100%;
+}
+
+.contents {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.outer { 
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.swiper-slide > div {
+    background-size: 100% 100%;
+    width: 100vh;
+    height: 100vh;
+}
+.img01 {
+    background: url(../img/mobile_pr01.png) no-repeat;
+}
+.img02 {
+    background: url(../img/mobile_pr02.png) no-repeat;
+}
+.img03 {
+    background: url(../img/mobile_pr03.png) no-repeat;
+}
+.img04 {
+    background: url(../img/mobile_pr04.png) no-repeat;
+}
 
